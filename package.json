@@ -1,0 +1,21 @@
+{
+  "name": "fake-grades-server-rest-api",
+  "version": "1.0.0",
+  "description": "Fake grades server with REST API for testing",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server db.json -m ./node_modules/json-server-auth -r routes.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Simmiyo/fake-grades-server-rest-api"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "server",
+    "fake"
+  ],
+  "author": "Pop Simona",
+  "license": "ISC"
+}

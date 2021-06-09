@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "email": "simona.pop@s.unibuc.ro",
+      "password": "$2a$10$PsS/f55zlbjSJAg/qMx0zuTl7y.snSTiQTb8e6jomt7VgcERQpKEK",
+      "id": 1,
+      "surname": "Pop",
+      "firstname": "Simona",
+      "phone": "07451324567",
+      "faculty": "Matematica-Informatica",
+      "cicle": "Licenta",
+      "domain": "Informatica",
+      "specialization": "Informatica",
+      "class": 342,
+      "year": "III",
+      "studyType": "IF",
+      "financeType": "taxa",
+      "registrationNimber": "133/2017",
+      "finished": 0,
+      "gradesId": 1
+    },
+    {
+      "email": "ranete.cristian@s.unibuc.ro",
+      "password": "$2a$10$hniV9au6PKnlEVmtK1i0/.14jx9bp8WgLF8PoEPv1c71glnZD4klG",
+      "id": 2,
+      "surname": "Ranete",
+      "firstname": "Cristian-Laurentiu",
+      "phone": "07451324568",
+      "faculty": "Matematica-Informatica",
+      "cicle": "Licenta",
+      "domain": "Matematica",
+      "specialization": "Matematica-Informatica",
+      "class": 311,
+      "year": "III",
+      "studyType": "IF",
+      "financeType": "buget",
+      "registrationNimber": "130/2017",
+      "finished": 1,
+      "gradesId": 2
+    }
+  ],
+  "grades": [
+    {
+      "id": 1,
+      "userId": 1,
+      "Analiza matematica I": {
+        "grade": 9,
+        "credits": 10
+      },
+      "Analiza matematica II": {
+        "grade": 8,
+        "credits": 10
+      },
+      "Geometrie I": {
+        "grade": 10,
+        "credits": 10
+      },
+      "Programare orientata pe obiecte": {
+        "grade": 9,
+        "credits": 10
+      },
+      "Tehnici Web": {
+        "grade": 10,
+        "credits": 5
+      },
+      "SGBD": {
+        "grade": 0,
+        "credits": 5
+      }
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "Analiza matematica I": {
+        "grade": 8,
+        "credits": 10
+      },
+      "Analiza matematica II": {
+        "grade": 9,
+        "credits": 10
+      },
+      "Geometrie I": {
+        "grade": 10,
+        "credits": 10
+      },
+      "Programare orientata pe obiecte": {
+        "grade": 9,
+        "credits": 10
+      },
+      "Tehnici Web": {
+        "grade": 10,
+        "credits": 5
+      },
+      "SGBD": {
+        "grade": 0,
+        "credits": 5
+      }
+    }
+  ]
+}
