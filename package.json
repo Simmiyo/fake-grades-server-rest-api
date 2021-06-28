@@ -4,7 +4,7 @@
   "description": "Fake grades server with REST API for testing",
   "main": "index.js",
   "scripts": {
-    "json:server": "json-server db.json -m ./node_modules/json-server-auth -r routes.json"
+    "json:server": "json-server -w db.json -m ./node_modules/json-server-auth -r routes.json"
   },
   "repository": {
     "type": "git",

@@ -1,40 +1,46 @@
 {
   "users": [
     {
-      "email": "simona.pop@s.unibuc.ro",
-      "password": "$2a$10$PsS/f55zlbjSJAg/qMx0zuTl7y.snSTiQTb8e6jomt7VgcERQpKEK",
       "id": 1,
-      "surname": "Pop",
-      "firstname": "Simona",
-      "phone": "07451324567",
-      "faculty": "Matematica-Informatica",
-      "cicle": "Licenta",
-      "domain": "Informatica",
-      "specialization": "Informatica",
-      "class": 342,
-      "year": "III",
-      "studyType": "IF",
-      "financeType": "taxa",
-      "registrationNimber": "133/2017",
+      "password": "$2a$10$PsS/f55zlbjSJAg/qMx0zuTl7y.snSTiQTb8e6jomt7VgcERQpKEK",
+      "email": "simona.pop@s.unibuc.ro",
+      "Surname": "Pop",
+      "FirstName": "Simona",
+      "Phone": "+40723165394",
+      "Class": "342",
+      "Year": "III",
+      "UniversityYear": "2020-2021",
+      "Domain": "Informatică",
+      "Specialization": "Informatică",
+      "StudyForm": "IF",
+      "FinanceType": "taxă",
+      "beginYear": "2020",
+      "endYear": "2021",
+      "faculty": "Matematică-Informatică",
+      "cycle": "Licență",
+      "registrationNumber": "392/2020",
       "finished": 0,
       "gradesId": 1
     },
     {
-      "email": "ranete.cristian@s.unibuc.ro",
-      "password": "$2a$10$hniV9au6PKnlEVmtK1i0/.14jx9bp8WgLF8PoEPv1c71glnZD4klG",
       "id": 2,
-      "surname": "Ranete",
-      "firstname": "Cristian-Laurentiu",
-      "phone": "07451324568",
-      "faculty": "Matematica-Informatica",
-      "cicle": "Licenta",
-      "domain": "Matematica",
-      "specialization": "Matematica-Informatica",
-      "class": 311,
-      "year": "III",
-      "studyType": "IF",
-      "financeType": "buget",
-      "registrationNimber": "130/2017",
+      "email": "gratiela.ionescu@s.unibuc.ro",
+      "password": "$2a$10$qJsK5lMBD1rfdVM0kjs1seriSpsEGmh5wqPvwCmIerVXIeD98nQk6",
+      "Surname": "Ionescu",
+      "FirstName": "Gratiela",
+      "Phone": "+40711893200",
+      "Class": "311",
+      "Year": "III",
+      "UniversityYear": "2019-2020",
+      "Domain": "Matematică",
+      "Specialization": "Matematică-Informatică",
+      "StudyForm": "IF",
+      "FinanceType": "taxă",
+      "beginYear": "2017",
+      "endYear": "2020",
+      "faculty": "Matematică-Informatică",
+      "cycle": "Licență",
+      "registrationNumber": "133/2017",
       "finished": 1,
       "gradesId": 2
     }
@@ -43,58 +49,418 @@
     {
       "id": 1,
       "userId": 1,
-      "Analiza matematica I": {
-        "grade": 9,
-        "credits": 10
-      },
-      "Analiza matematica II": {
-        "grade": 8,
-        "credits": 10
-      },
-      "Geometrie I": {
-        "grade": 10,
-        "credits": 10
-      },
-      "Programare orientata pe obiecte": {
-        "grade": 9,
-        "credits": 10
-      },
-      "Tehnici Web": {
-        "grade": 10,
-        "credits": 5
-      },
-      "SGBD": {
-        "grade": 0,
-        "credits": 5
-      }
+      "Licenta": [
+        {
+          "Year": "I",
+          "Semester I": [
+            {
+              "Subject": "Analiza matematica I",
+              "Grade": 9,
+              "Credits": 7
+            },
+            {
+              "Subject": "Algebra I",
+              "Grade": 7,
+              "Credits": 7
+            },
+            {
+              "Subject": "Geometrie I",
+              "Grade": 10,
+              "Credits": 7
+            },
+            {
+              "Subject": "Logică matematică şi teoria mulţimilor",
+              "Grade": 9,
+              "Credits": 5
+            },
+            {
+              "Subject": "Programare procedurala",
+              "Grade": 9,
+              "Credits": 4
+            }
+          ],
+          "Semester II": [
+            {
+              "Subject": "Analiza matematica II",
+              "Grade": 8,
+              "Credits": 7
+            },
+            {
+              "Subject": "Algoritmi paraleli",
+              "Grade": 10,
+              "Credits": 7
+            },
+            {
+              "Subject": "Algoritmica grafurilor",
+              "Grade": 9,
+              "Credits": 5
+            },
+            {
+              "Subject": "Geometrie II",
+              "Grade": 9,
+              "Credits": 7
+            },
+            {
+              "Subject": "Introducere în software matematic",
+              "Grade": 10,
+              "Credits": 4
+            },
+            {
+              "Subject": "Limba engleză",
+              "Grade": 10,
+              "Credits": 3
+            }
+          ]
+        },
+        {
+          "Year": "II",
+          "Semester I": [
+            {
+              "Subject": "Algebra",
+              "Grade": 10,
+              "Credits": 5
+            },
+            {
+              "Subject": "Algoritmi si structuri de date",
+              "Grade": 8,
+              "Credits": 4
+            },
+            {
+              "Subject": "Arhitectura sistemelor de calcul",
+              "Grade": 9,
+              "Credits": 3
+            },
+            {
+              "Subject": "Ecuatii diferentiale",
+              "Grade": 8,
+              "Credits": 5
+            },
+            {
+              "Subject": "Geometrie diferentiala",
+              "Grade": 10,
+              "Credits": 5
+            },
+            {
+              "Subject": "Sisteme de operare",
+              "Grade": 9,
+              "Credits": 3
+            },
+            {
+              "Subject": "Teoria masurii",
+              "Grade": 9,
+              "Credits": 5
+            }
+          ],
+          "Semester II": [
+            {
+              "Subject": "Algebră II",
+              "Grade": 10,
+              "Credits": 5
+            },
+            {
+              "Subject": "Analiză complexă",
+              "Grade": 9,
+              "Credits": 5
+            },
+            {
+              "Subject": "Baze de date",
+              "Grade": 10,
+              "Credits": 5
+            },
+            {
+              "Subject": "Limba engleză",
+              "Grade": 10,
+              "Credits": 3
+            },
+            {
+              "Subject": "Limbaje formale şi automate",
+              "Grade": 9,
+              "Credits": 5
+            },
+            {
+              "Subject": "Probabilităţi",
+              "Grade": 9,
+              "Credits": 5
+            },
+            {
+              "Subject": "Programare orientată pe obiecte",
+              "Grade": 9,
+              "Credits": 5
+            }
+          ]
+        },
+        {
+          "Year": "III",
+          "Semester I": [
+            {
+              "Subject": "Analiză numerică",
+              "Grade": 9,
+              "Credits": 5
+            },
+            {
+              "Subject": "Cercetări operaţionale",
+              "Grade": 8,
+              "Credits": 4
+            },
+            {
+              "Subject": "Criptografie si teoria codurilor",
+              "Grade": 10,
+              "Credits": 3
+            },
+            {
+              "Subject": "Ecuaţii cu derivate parţiale",
+              "Grade": 8,
+              "Credits": 5
+            },
+            {
+              "Subject": "Statistica",
+              "Grade": 9,
+              "Credits": 5
+            },
+            {
+              "Subject": "Tehnici web",
+              "Grade": 9,
+              "Credits": 3
+            }
+          ],
+          "Semester II": [
+            {
+              "Subject": "Inteligenţă artificială",
+              "Grade": 7,
+              "Credits": 5
+            },
+            {
+              "Subject": "Programare logică",
+              "Grade": 10,
+              "Credits": 5
+            },
+            {
+              "Subject": "Retele de calculatoare",
+              "Grade": 9,
+              "Credits": 3
+            },
+            {
+              "Subject": "Teoria numerelor cu aplicaţii în criptografie",
+              "Grade": 6,
+              "Credits": 5
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 2,
       "userId": 2,
-      "Analiza matematica I": {
-        "grade": 8,
-        "credits": 10
-      },
-      "Analiza matematica II": {
-        "grade": 9,
-        "credits": 10
-      },
-      "Geometrie I": {
-        "grade": 10,
-        "credits": 10
-      },
-      "Programare orientata pe obiecte": {
-        "grade": 9,
-        "credits": 10
-      },
-      "Tehnici Web": {
-        "grade": 10,
-        "credits": 5
-      },
-      "SGBD": {
-        "grade": 0,
-        "credits": 5
-      }
+      "Licenta": [
+        {
+          "Year": "I",
+          "Semester I": [
+            {
+              "Subject": "Analiza matematica I",
+              "Grade": 7,
+              "Credits": 7
+            },
+            {
+              "Subject": "Algebra I",
+              "Grade": 6,
+              "Credits": 7
+            },
+            {
+              "Subject": "Geometrie I",
+              "Grade": 8,
+              "Credits": 7
+            },
+            {
+              "Subject": "Logică matematică şi teoria mulţimilor",
+              "Grade": 10,
+              "Credits": 5
+            },
+            {
+              "Subject": "Programare procedurala",
+              "Grade": 10,
+              "Credits": 4
+            }
+          ],
+          "Semester II": [
+            {
+              "Subject": "Analiza matematica II",
+              "Grade": 10,
+              "Credits": 7
+            },
+            {
+              "Subject": "Algoritmi paraleli",
+              "Grade": 5,
+              "Credits": 7
+            },
+            {
+              "Subject": "Algoritmica grafurilor",
+              "Grade": 5,
+              "Credits": 5
+            },
+            {
+              "Subject": "Geometrie II",
+              "Grade": 10,
+              "Credits": 7
+            },
+            {
+              "Subject": "Introducere în software matematic",
+              "Grade": 9,
+              "Credits": 4
+            },
+            {
+              "Subject": "Limba engleză",
+              "Grade": 10,
+              "Credits": 3
+            }
+          ]
+        },
+        {
+          "Year": "II",
+          "Semester I": [
+            {
+              "Subject": "Algebra",
+              "Grade": 7,
+              "Credits": 5
+            },
+            {
+              "Subject": "Algoritmi si structuri de date",
+              "Grade": 8,
+              "Credits": 4
+            },
+            {
+              "Subject": "Arhitectura sistemelor de calcul",
+              "Grade": 10,
+              "Credits": 3
+            },
+            {
+              "Subject": "Ecuatii diferentiale",
+              "Grade": 5,
+              "Credits": 5
+            },
+            {
+              "Subject": "Geometrie diferentiala",
+              "Grade": 9,
+              "Credits": 5
+            },
+            {
+              "Subject": "Sisteme de operare",
+              "Grade": 10,
+              "Credits": 3
+            },
+            {
+              "Subject": "Teoria masurii",
+              "Grade": 10,
+              "Credits": 5
+            }
+          ],
+          "Semester II": [
+            {
+              "Subject": "Algebră II",
+              "Grade": 6,
+              "Credits": 5
+            },
+            {
+              "Subject": "Analiză complexă",
+              "Grade": 10,
+              "Credits": 5
+            },
+            {
+              "Subject": "Baze de date",
+              "Grade": 8,
+              "Credits": 5
+            },
+            {
+              "Subject": "Limba engleză",
+              "Grade": 10,
+              "Credits": 3
+            },
+            {
+              "Subject": "Limbaje formale şi automate",
+              "Grade": 10,
+              "Credits": 5
+            },
+            {
+              "Subject": "Probabilităţi",
+              "Grade": 5,
+              "Credits": 5
+            },
+            {
+              "Subject": "Programare orientată pe obiecte",
+              "Grade": 8,
+              "Credits": 5
+            }
+          ]
+        },
+        {
+          "Year": "III",
+          "Semester I": [
+            {
+              "Subject": "Analiză numerică",
+              "Grade": 5,
+              "Credits": 5
+            },
+            {
+              "Subject": "Cercetări operaţionale",
+              "Grade": 5,
+              "Credits": 4
+            },
+            {
+              "Subject": "Criptografie si teoria codurilor",
+              "Grade": 5,
+              "Credits": 3
+            },
+            {
+              "Subject": "Ecuaţii cu derivate parţiale",
+              "Grade": 5,
+              "Credits": 5
+            },
+            {
+              "Subject": "Statistica",
+              "Grade": 5,
+              "Credits": 5
+            },
+            {
+              "Subject": "Tehnici web",
+              "Grade": 5,
+              "Credits": 3
+            }
+          ],
+          "Semester II": [
+            {
+              "Subject": "Inteligenţă artificială",
+              "Grade": 5,
+              "Credits": 5
+            },
+            {
+              "Subject": "Programare logică",
+              "Grade": 5,
+              "Credits": 5
+            },
+            {
+              "Subject": "Retele de calculatoare",
+              "Grade": 10,
+              "Credits": 3
+            },
+            {
+              "Subject": "Teoria numerelor cu aplicaţii în criptografie",
+              "Grade": 5,
+              "Credits": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "userName": "Pop-Simona",
+      "userId": 1,
+      "gradesId": 1
+    },
+    {
+      "userName": "Ionescu-Gratiela",
+      "userId": 2,
+      "gradesId": 2
     }
   ]
 }
